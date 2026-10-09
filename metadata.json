@@ -1,0 +1,6 @@
+{
+  "name": "도서관 도서 예약 시스템",
+  "description": "Google Apps Script 연동 도서 검색, 실시간 예약 및 내 예약 관리 웹 애플리케이션",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
