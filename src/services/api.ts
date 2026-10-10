@@ -1,6 +1,6 @@
 import { Book, Reservation } from '../types';
 
-export const DEFAULT_GAS_API_URL = 'https://script.google.com/macros/s/AKfycbzz49xWLFOAPjPpKTYuVGIDaKaW-wjLuGKYMHlEmxAf9WQqiRn01M8asKO9iUZ5PXjrcg/exec';
+export const DEFAULT_GAS_API_URL = (import.meta.env.VITE_GAS_API_URL as string) || 'https://script.google.com/macros/s/AKfycbzz49xWLFOAPjPpKTYuVGIDaKaW-wjLuGKYMHlEmxAf9WQqiRn01M8asKO9iUZ5PXjrcg/exec';
 
 // 사용자의 Google Spreadsheet 데이터베이스(BK003 ~ BK012)와 100% 일치하는 기본 장서 목록
 export const INITIAL_BOOKS: Book[] = [
